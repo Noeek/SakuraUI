@@ -5,13 +5,14 @@
     xmlns:local="using:SakuraUI.Sample"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:SakuraUI.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
         <StackPanel VerticalAlignment="Bottom">
-            <Button Click="ShowInputBoxOnClick">Show InputBox</Button>
-            <Button Background="DeepSkyBlue" Click="ShowMessageBoxOnClick">Show MessageBox</Button>
+            <controls:SakuraButton Click="ShowInputBoxOnClick">Show InputBox</controls:SakuraButton>
+            <controls:SakuraButton Background="DeepSkyBlue" Click="ShowMessageBoxOnClick">Show MessageBox</controls:SakuraButton>
         </StackPanel>
     </Grid>
 </Page>

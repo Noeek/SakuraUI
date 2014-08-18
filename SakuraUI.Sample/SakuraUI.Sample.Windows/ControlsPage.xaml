@@ -20,7 +20,7 @@
         <StackPanel Orientation="Vertical">
             <TextBlock Text="FlyTextBlock" Margin="20, 0, 0, 10" FontSize="17"></TextBlock>
             <controls:FlyTextBlock x:Name="FlyBlock" Foreground="{StaticResource AccentBrush}" Margin="20, 0"/>
-            <Button Content="Current Time" Click="CurrentTimeOnClick"/>
+            <controls:SakuraButton Content="Current Time" Click="CurrentTimeOnClick"/>
         </StackPanel>
 
         <StackPanel Orientation="Vertical" Grid.Row="1" Margin="0, 24, 0, 0" VerticalAlignment="Stretch">
@@ -36,7 +36,7 @@
         <StackPanel Grid.Row="2" Margin="0, 24, 0, 0">
             <TextBlock Text="RoationTextBlock" Margin="20, 0, 0, 10" FontSize="17" Foreground="YellowGreen" />
             <controls:RotationTextBlock x:Name="RotationTextBlock" Text="Hello world" Margin="20, 0" Foreground="YellowGreen" FontSize="32" />
-            <Button Content="Set New Text" Click="RotationTextOnClick" Background="YellowGreen"/>
+            <controls:SakuraButton Content="Set New Text" Click="RotationTextOnClick" Background="YellowGreen"/>
         </StackPanel>
 
         <StackPanel Grid.Row="3" Margin="0, 24, 0, 0">

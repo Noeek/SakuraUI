@@ -5,6 +5,7 @@
     xmlns:local="using:SakuraUI.Sample"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:SakuraUI.Controls"
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource BackgroundBrush}">
@@ -18,8 +19,8 @@
             <Frame x:Name="TestFrame" />
 
             <StackPanel Grid.Row="1" Orientation="Horizontal">
-                <Button Content="Themes" Width="160" Click="ThemeTestOnClick"/>
-                <Button Content="Controls" Width="160" Click="ControlsTestOnClick"></Button>
+                <controls:SakuraButton Content="Themes" Width="160" Click="ThemeTestOnClick"/>
+                <controls:SakuraButton Content="Controls" Width="160" Click="ControlsTestOnClick" Background="YellowGreen"/>
             </StackPanel>
         </Grid>
 
