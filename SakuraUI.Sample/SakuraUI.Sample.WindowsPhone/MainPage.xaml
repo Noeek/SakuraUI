@@ -11,6 +11,7 @@
 
     <Grid>
         <StackPanel VerticalAlignment="Bottom">
+            <controls:SakuraTextBox />
             <controls:SakuraButton Click="ShowInputBoxOnClick">Show InputBox</controls:SakuraButton>
             <controls:SakuraButton Background="DeepSkyBlue" Click="ShowMessageBoxOnClick">Show MessageBox</controls:SakuraButton>
         </StackPanel>

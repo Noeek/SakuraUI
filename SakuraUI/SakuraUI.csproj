@@ -49,6 +49,7 @@
       <DependentUpon>RotationTextBlock.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\SakuraButton.cs" />
+    <Compile Include="Controls\SakuraTextBox.cs" />
     <Compile Include="Mvvm\ActionCommand.cs" />
     <Compile Include="Mvvm\BaseNotify.cs" />
     <Compile Include="Properties\Annotations.cs" />
