@@ -61,11 +61,14 @@ This project from Listen which is a Windows Phone app. SakuraUI contains many mo
 ## Phone Controls ##
 
  - **MessageBox**
-   ![MessageBox][3]
-
+ 
+   ![此处输入图片的描述][3]
 
  - **InputBox**
-    ![InputBox][4]
+ 
+   ![此处输入图片的描述][4]
+
+ - **SakuraTextBox**
 
 To be continued...
 
