@@ -24,8 +24,28 @@ namespace SakuraUI.WindowsPhone.Controls
             };
         }
 
-        public string Title { get { return TitleBlock.Text; } set { TitleBlock.Text = value; } }
-        public string Message { get { return MessageBlock.Text; } set { MessageBlock.Text = value; } }
+        public string Title
+        {
+            get { return TitleBlock.Text; }
+            set { TitleBlock.Text = value; }
+        }
+        public string Message
+        {
+            get { return MessageBlock.Text; }
+            set { MessageBlock.Text = value; }
+        }
+
+        public string PositiveButtonTitle
+        {
+            get { return PositiveButton.Content as string; }
+            set { PositiveButton.Content = value; }
+        }
+
+        public string NegativeButtonTitle
+        {
+            get { return NegativeButton.Content as string; }
+            set { NegativeButton.Content = value; }
+        }
 
         public void Show()
         {
