@@ -53,12 +53,27 @@ This project from Listen which is a Windows Phone app. SakuraUI contains many mo
 
  - **LINQ to VisualTree**
 
-    LINQ to VisualTree is a powerful tool to get a UIElemeent from XAML visual tree. You can use Select, Where, DesendantsAs, ... to get UIElement(s) what you want.
+    LINQ to VisualTree is a powerful tool to get a UIElemeent from XAML visual tree. You can use Select, Where, DesendantsAs, ... to get UIElement(s) what you want. This class from Internet, but enhanced by me.
 
  - **MessagePublisher**
     MessagePublisher is a class for publishing and receiving message in app. You can register your instance to receive message from other instances, and you can also send message to other instances by DEFAULT message publisher. 
 
+## Phone Controls ##
+
+ - **MessageBox**
+ 
+   ![此处输入图片的描述][3]
+
+ - **InputBox**
+ 
+   ![此处输入图片的描述][4]
+
+ - **SakuraTextBox**
+
+To be continued...
+
+
   [1]: http://i1.tietuku.com/ca015991fe8c095f.png
   [2]: http://i1.tietuku.com/c6755226688d4f57.png
-    
-To be continued...
+  [3]: http://i2.tietuku.com/e305a5135d7d4ff8.png
+  [4]: http://i2.tietuku.com/bd86575edef4e4e1.png
